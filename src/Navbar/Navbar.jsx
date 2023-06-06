@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <div className='w-full h-[10%] bg-whit sticky top-0 z-10 shadow shadow-bottom'>
         <div className='px-1 py-4 flex justify-between items-center w-full h-full'>
-            <div className='flex items-center ml-4 w-[11rem] h-[2.5rem] sm:w-[13rem] sm:h-[3rem] md:ml-10 lg:w-[15rem] lg:h-[3.5rem]'>
+            <div className='flex items-center ml-4 w-[11rem] h-[3rem] sm:w-[13rem] sm:h-[3.5rem] md:ml-10 lg:w-[15rem] lg:h-[3.5rem]'>
                 <img src={softpurseLogo} alt="softpurselogo" className='w-full h-full' />
             </div>
             <ul className='hidden md:flex mr-10 md:mr-4'>
@@ -53,18 +53,18 @@ function Navbar() {
             </div>
         </div>
         <ul className={!dropdown ? 'hidden' : 'absolute bg-whit w-full px-6'}>
-            <li className='border-b-2 border-zinc-300 w-full text-custom-color rounded-lg hover:bg-custom-color hover:text-whit cursor-pointer'>
-                <Link onClick={handleClose} to="home" smooth={true} duration={500}>Home</Link>
-            </li>
-            <li className='border-b-2 border-zinc-300 w-full text-custom-color rounded-lg hover:bg-custom-color hover:text-whit cursor-pointer'>
-                <Link onClick={handleClose} to="features" smooth={true} offset={-200} duration={500}>Features</Link>
-            </li>
-            <li className='border-b-2 border-zinc-300 w-full text-custom-color rounded-lg hover:bg-custom-color hover:text-whit cursor-pointer'>
-                <Link onClick={handleClose} to="faq" smooth={true} offset={-200} duration={500}>FAQ</Link>
-            </li>
-            <li className='border-zinc-300 w-full text-custom-color rounded-lg hover:bg-custom-color hover:text-whit cursor-pointer'>
-                <Link onClick={handleClose} to="download" smooth={true} offset={-200} duration={500}>Download</Link>
-            </li>
+            <Link onClick={handleClose} to="home" smooth={true} duration={800}>
+                < li className='border-b-2 border-zinc-300 w-full text-custom-color rounded-lg hover:bg-custom-color hover:text-whit cursor-pointer'>Home</li>
+            </Link>
+            <Link onClick={handleClose} to="features" smooth={true} offset={-200} duration={800}>
+                < li className='border-b-2 border-zinc-300 w-full text-custom-color rounded-lg hover:bg-custom-color hover:text-whit cursor-pointer'>Features</li>
+            </Link>
+            <Link onClick={handleClose} to="faq" smooth={true} offset={-200} duration={800}>
+                < li className='border-b-2 border-zinc-300 w-full text-custom-color rounded-lg hover:bg-custom-color hover:text-whit cursor-pointer'>FAQ</li>
+            </Link>
+            <Link onClick={handleClose} to="download" smooth={true} offset={-200} duration={800}>
+                < li className='border-b-2 border-zinc-300 w-full text-custom-color rounded-lg hover:bg-custom-color hover:text-whit cursor-pointer'>Download</li>
+            </Link>
         </ul>
     </div>
   )
