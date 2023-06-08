@@ -26,30 +26,37 @@ function Navbar() {
                 <img src={softpurseLogo} alt="softpurselogo" className='w-full h-full' />
             </div>
             <ul className='hidden md:flex mr-10 md:mr-4'>
-                <div className={linkSelected === 'home' ? 'bg-custom-color rounded-lg text-whit' : 'text-custom-color'} onClick={() => handleNavLinks("home")}>
-                    <li className='cursor-pointer'>
-                        <Link to="home" smooth={true} duration={500}>Home</Link>
+                <div className='cursor-pointer'>
+                    <li>
+                        <Link to="home" smooth={true} duration={500} className={linkSelected === 'home' ? 'bg-custom-color rounded-lg text-whit px-4 py-2 font-bold' : 'text-custom-color px-4 py-2 font-bold'} onClick={() => handleNavLinks("home")}>
+                            Home
+                        </Link>
                     </li>
                 </div>
-                <div className={linkSelected === 'features' ? 'bg-custom-color rounded-lg text-whit' : 'text-custom-color'} onClick={() => handleNavLinks("features")}>
-                    <li className='cursor-pointer'>
-                        <Link to="features" smooth={true} offset={-200} duration={500}>Features</Link>
+                <div className='cursor-pointer'>
+                    <li>
+                        <Link to="features" smooth={true} offset={-200} duration={500} className={linkSelected === 'features' ? 'bg-custom-color rounded-lg text-whit px-4 py-2 font-bold' : 'text-custom-color px-4 py-2 font-bold'} onClick={() => handleNavLinks("features")}>
+                            Features
+                        </Link>
                     </li>
                 </div>
-                <div className={linkSelected === 'faq' ? 'bg-custom-color rounded-lg text-whit' : 'text-custom-color'} onClick={() => handleNavLinks("faq")}>
-                    <li className='cursor-pointer'>
-                        <Link to="faq" smooth={true} offset={-200} duration={500}>FAQ</Link>
+                <div className='cursor-pointer'>
+                    <li>
+                        <Link to="faq" smooth={true} offset={-200} duration={500} className={linkSelected === 'faq' ? 'bg-custom-color rounded-lg text-whit px-4 py-2 font-bold' : 'text-custom-color px-4 py-2 font-bold'} onClick={() => handleNavLinks("faq")}>
+                            FAQ
+                        </Link>
                     </li>
                 </div>
-                <div className={linkSelected === 'download' ? 'bg-custom-color rounded-lg text-whit' : 'text-custom-color'} onClick={() => handleNavLinks("download")}>
-                    <li className='cursor-pointer'>
-                        <Link to="download" smooth={true} offset={-200} duration={500}>Download</Link>
+                <div className='cursor-pointer'>
+                    <li>
+                        <Link to="download" smooth={true} offset={-200} duration={500} className={linkSelected === 'download' ? 'bg-custom-color rounded-lg text-whit px-4 py-2 font-bold' : 'text-custom-color px-4 py-2 font-bold'} onClick={() => handleNavLinks("download")}>
+                            Download
+                        </Link>
                     </li>
                 </div>
             </ul>
             <div className="md:hidden cursor-pointer" onClick={handleMenuBtnClick}>
                 {!dropdown ? <MenuIcon className="w-9 text-custom-color mr-6" /> : <XIcon className="w-9 text-custom-color mr-6" /> }
-                
             </div>
         </div>
         <ul className={!dropdown ? 'hidden' : 'absolute bg-whit w-full px-6'}>
@@ -63,7 +70,7 @@ function Navbar() {
                 < li className='border-b-2 border-zinc-300 w-full text-custom-color rounded-lg hover:bg-custom-color hover:text-whit cursor-pointer'>FAQ</li>
             </Link>
             <Link onClick={handleClose} to="download" smooth={true} offset={-200} duration={800}>
-                < li className='border-b-2 border-zinc-300 w-full text-custom-color rounded-lg hover:bg-custom-color hover:text-whit cursor-pointer'>Download</li>
+                < li className='border-b-2 border-zinc-300 mb-7 w-full text-custom-color rounded-lg hover:bg-custom-color hover:text-whit cursor-pointer'>Download</li>
             </Link>
         </ul>
     </div>

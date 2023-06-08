@@ -1,8 +1,8 @@
 export const faqs = [
   {
-    question: "What is SoftPurse?",
+    question: "What is Soft Purse?",
     answer:
-      "SoftPurse is a Nigerian reliable service on-demand App designed by Tech-Serv Technologies for connecting Service providers to Clients",
+      "Soft Purse is a Nigerian reliable service on-demand App designed by Tech-Serv Technologies for connecting Service providers to Clients",
   },
   {
     question: "What do I need to register?",

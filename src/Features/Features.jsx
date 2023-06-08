@@ -26,12 +26,12 @@ function Features() {
             <h1 className='text-[32px] font-bold text-blue-color pb-3 sm:text-[34px]'>Showcase Your Skills:</h1>
             <p className='text-blue-color text-[22px] sm:text-[22px]'>You have the Skill, we have the Platform! <br /> Let's tell the world about your amazing skill. <br /> Sign up now. </p>
           </div>
-          <div className='pt-[5rem] 2sm:w-[15rem] w-[22rem] h-[25rem] flex justify-center items-center sm:h-[27rem] sm:w-[24rem] md:h-[29rem] md:w-[26rem] lg:w-[50%] xl:h-[32rem] 2xl:h-[35rem]'>
+          <div className='pt-[5rem] 2sm:w-[12rem] 2sm:h-[20rem] w-[22rem] h-[25rem] flex justify-center items-center sm:h-[27rem] sm:w-[24rem] md:h-[29rem] md:w-[26rem] lg:w-[50%] xl:h-[32rem] 2xl:h-[35rem]'>
             <img src={SecondFeatureImg} alt="showcase-your-skills" className='w-full h-full' />
           </div>
        </div>
        <div className='flex flex-col gap-[30px] w-full items-center md:gap-[40px] lg:flex-row lg:items-center lg:gap-[5rem]'>
-          <div className='pt-[5rem] 2sm:w-[15rem] w-[20rem] h-[25rem] flex justify-center items-center sm:w-[22rem] sm:h-[27rem] lg:w-[40%] xl:h-[32rem] 2xl:h-[35rem]'>
+          <div className='pt-[5rem] 2sm:w-[12rem] 2sm:h-[20rem] w-[20rem] h-[25rem] flex justify-center items-center sm:w-[22rem] sm:h-[27rem] lg:w-[40%] xl:h-[32rem] 2xl:h-[35rem]'>
             <img src={ThirdFeatureImg} alt="multiple-services" className='w-full h-full' />
           </div>
           <div className='w-full lg:w-[50%] lg:pt-[5rem]'>

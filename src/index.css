@@ -10,5 +10,6 @@
     }
     html {
         font-family: 'Poppins';
+        user-select: none;
     }
 }
