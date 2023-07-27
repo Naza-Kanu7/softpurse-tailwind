@@ -7,20 +7,30 @@ export const faqs = [
   {
     question: "What do I need to register?",
     answer:
-      "You will need a phone number, a working Email and a means of identification",
+      "You will need a phone number.",
   },
   {
     question: "How do I book for a Service Provider?",
     answer:
-      "Click a button requesting for the service needed, and you will be connected to the best service provider closest to you.",
+      "Click a search button to search for the service needed, and you will be connected to the best service provider closest to you.",
   },
   {
     question: "How do I become a Service Provider on the app?",
     answer:
-      "You will add your business details and services rendered to an existing account and you will be verified.",
+      "You will need to add details of the services you can render to an existing account.",
   },
   {
-    question: "Is there a support/complaints center?",
+    question: "Do I need to pay to book for a service?",
+    answer:
+      "SoftPurse doesn't charge to connect you to a Service Provider",
+  },
+  {
+    question: "Do I need to pay to be a service provider on the app?",
+    answer:
+      "SoftPurse charges service providers from their wallet when the job is completed.",
+  },
+  {
+    question: "How do I contact SoftPurse?",
     answer:
       "Yes, you can send us an email at techservafrica@gmail.com",
   },

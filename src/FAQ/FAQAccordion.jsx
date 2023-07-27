@@ -27,7 +27,7 @@ function FAQAccordion() {
                     <FAQAccordionItem key={index} faq={faq} onToggle={() => handleToggle(index)} active={clicked === index}/>
                 ))}
             </div>
-            <div className='w-[80%] h-[30rem] md:h-[40rem] md:w-[70%] lg:h-[30rem] lg:w-[50%]'>
+            <div className='w-[80%] h-[30rem] md:h-[40rem] md:w-[70%] lg:h-[30rem] lg:w-[50%] 2xl:h-[35rem]'>
                 <img src={FAQImg} alt='FAQImg' className='w-full h-full' />
             </div>
         </div>
