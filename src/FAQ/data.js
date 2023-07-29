@@ -7,7 +7,7 @@ export const faqs = [
   {
     question: "What do I need to register?",
     answer:
-      "You will need a phone number.",
+      "You will need a valid phone number.",
   },
   {
     question: "How do I book for a Service Provider?",

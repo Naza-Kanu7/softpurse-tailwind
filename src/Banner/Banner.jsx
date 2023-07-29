@@ -11,7 +11,7 @@ function Banner() {
                 <h1 className='text-[30px] font-bold pb-4 sm:text-[35px] lg:text-[40px] 2xl:text-[50px]'>. . . Providing Solutions, and Saving Cost !</h1>
                 {/* Enriching You */}
                 {/* The best app to increase your productivity, giving your craft online presence */}
-                <p className='text-[24px] sm:text-[28px] lg:text-[32px] 2xl:text-[40px]'>The best app to increase your productivity, minimize cost and give your craft online presence.</p>
+                <p className='text-[24px] sm:text-[28px] lg:text-[32px] 2xl:text-[32px]'>The best app to increase your productivity, minimize cost and give your craft online presence.</p>
                 <div className='flex 2sm:flex-col flex-row items-center gap-3 pt-4 sm:flex-row sm:items-center sm:pt-7 lg:gap-11 lg:pt-6 xl:pt-10 2xl:pt-12'>
                     {/* <button className='bg-banner-button text-whit 2sm:px-7 px-4 py-3 sm:px-9 sm:py-5 rounded-[10px] text-[17px] md:w-[170px] xl:w-[15rem]'><Link to="faq" smooth={true} offset={-200} duration={500}>Learn More</Link></button> */}
                     <div className='w-[9rem] 2sm:w-[9.7rem] h-[3.1rem] rounded-[10px] cursor-pointer sm:w-[13rem] sm:h-[4rem] md:w-[12rem] lg:w-[12rem] xl:w-[14rem]'>

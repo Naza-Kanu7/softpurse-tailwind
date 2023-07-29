@@ -4,6 +4,7 @@ import FAQAccordion from "./FAQ/FAQAccordion";
 import Features from "./Features/Features";
 import Footer from "./Footer/Footer";
 import Navbar from "./Navbar/Navbar";
+import ScrollTopButton from "./ScrollTopButton/ScrollTopButton";
 import Steps from "./Steps/Steps";
 
 
@@ -17,6 +18,7 @@ function App() {
       <FAQAccordion />
       <Download />
       <Footer />
+      <ScrollTopButton />
     </div>
   );
 }

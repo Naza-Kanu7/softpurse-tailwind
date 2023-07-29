@@ -32,10 +32,10 @@ function Footer() {
             </div>
         </div>
         <div className='text-center'>
-            <h3 className='text-whit font-semibold sm:text-[1.5rem]'>Service support</h3>
-            <p className='text-whit sm:text-[1.5rem]'>softpurse123@gmail.com</p>
+            <h3 className='text-whit font-semibold sm:text-[18px]'>Service support</h3>
+            <p className='text-whit sm:text-[16px]'>softpurse123@gmail.com</p>
         </div>
-        <p className='text-whit sm:text-[1.5rem]'>Copyright &#64; SoftPurse 2023</p>
+        <p className='text-whit sm:text-[16px]'>Copyright &#64; SoftPurse 2023</p>
     </div>
   )
 }

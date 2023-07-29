@@ -10,7 +10,7 @@ function Download() {
             <img src={DownloadPhoneImg} alt="softpurse-phone" className='w-full h-full' />
         </div>
         <div className='w-full flex flex-col items-center gap-5 lg:w-[45%]'>
-            <h3 className='text-[25px] text-center font-bold sm:text-[35px] md:text-[40px] lg:text-[35px]'>Download now and enjoy all the amazing features</h3>
+            <h3 className='text-[25px] text-center font-bold sm:text-[30px] md:text-[30px] lg:text-[30px]'>Download now and enjoy all the amazing features</h3>
             <div className='bg-whit w-[70%] px-4 py-4 rounded-lg sm:w-[50%] md:w-[50%] lg:w-[50%] 2xl:w-[40%]'>
                 <img src={QrCode} alt="qr-code" className='w-full h-full' />
             </div>
